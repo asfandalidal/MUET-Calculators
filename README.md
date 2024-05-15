@@ -25,7 +25,7 @@ The MUET Calculators app is a convenient tool designed for students, faculty, an
 
 ## Installation
 
-To use the app, simply download the APK file from the [releases](https://github.com/asfandalidal/muet-calculators/releases) section and install it on your Android device.
+To use the app, simply download the APK file from the link (https://github.com/asfandalidal/MUET-Calculators/blob/master/MUET%20Calculators.apk)) section and install it on your Android device.
 
 ## Contributing
 
