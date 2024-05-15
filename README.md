@@ -12,16 +12,16 @@ The MUET Calculators app is a convenient tool designed for students, faculty, an
 ## Screenshots
 
 1. **Main App Interface**  
-   [![Main App Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpg)
+   [![Main App Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpeg)
 
 2. **GPA Calculator Interface**  
-   [![GPA Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpg)
+   [![GPA Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpeg)
 
 3. **CPN Calculator Interface**  
-   [![CPN Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpg)
+   [![CPN Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg)
 
 4. **Navigation Menu Bar**  
-   [![Navigation Menu Bar](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpg)
+   [![Navigation Menu Bar](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpeg)
 
 ## Installation
 
