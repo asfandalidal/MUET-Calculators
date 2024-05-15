@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Main Section -->
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:itemBackground="@drawable/nav_item_background"
+            android:icon="@drawable/home" />
+
+        <item
+            android:id="@+id/rules_and_regulations"
+            android:title="Rules and Regulation"
+            android:itemBackground="@drawable/nav_item_background"
+            android:icon="@drawable/graduationcap" />
+    </group>
+
+    <!-- Divider -->
+
+    <!-- External Links Section -->
+    <group>
+        <item
+            android:id="@+id/website"
+            android:title="MUET Website"
+            android:itemBackground="@drawable/nav_item_background"
+            android:icon="@drawable/www" />
+    </group>
+
+
+    <!-- Additional Options Section -->
+    <group>
+
+        <item
+            android:id="@+id/desc"
+            android:title="App Description"
+            android:icon="@drawable/registration" />
+        <item
+            android:id="@+id/policy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/file" />
+        <item
+            android:id="@+id/share"
+            android:title="Share App"
+            android:itemBackground="@drawable/nav_item_background"
+            android:icon="@drawable/share" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/contact_me"
+            android:title="Contact me"
+            android:itemBackground="@drawable/nav_item_background"
+            android:icon="@drawable/call" />
+    </group>
+
+</menu>

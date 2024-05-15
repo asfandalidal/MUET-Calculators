@@ -1,0 +1,196 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CPNCal">
+
+    <ImageView
+        android:id="@+id/headerMuet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/muet_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@id/headerMuet"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/infoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="320dp"
+            android:elevation="4dp"
+            android:layout_alignParentStart="true"
+
+
+            android:src="@drawable/information" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/cpnCalheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="CPN CALCULATOR"
+        android:textAlignment="center"
+        android:textColor="@color/btn_color"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerMuet" />
+
+    <EditText
+        android:id="@+id/etMatricObt"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="center"
+        android:hint="Enter SSC(Matric) Obtained Marks"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cpnCalheading" />
+
+    <EditText
+        android:id="@+id/etMatricTot"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="center"
+        android:hint="Enter SSC(Matric) Total Marks"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etMatricObt" />
+
+    <EditText
+        android:id="@+id/etHSCObt"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="center"
+        android:hint="Enter HSC-1 Obtained Marks"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etMatricTot" />
+
+    <EditText
+        android:id="@+id/etHSCTot"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="center"
+        android:hint="Enter HSC-1 Total Marks"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etHSCObt" />
+
+    <LinearLayout
+        android:id="@+id/radiogrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etHSCTot">
+
+        <!-- TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="Are you Hafiz-e-Quran ?"
+            android:textColor="@color/btn_color"
+            android:textSize="20dp" />
+
+        <!-- RadioGroup -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="15dp"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checked="true"
+                android:text="No" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etEntryMarks"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:gravity="center"
+        android:hint="Enter Pre-admission Test Marks"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiogrp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cpnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="@color/btn_color"
+        android:text="Calculate CPN"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etEntryMarks" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

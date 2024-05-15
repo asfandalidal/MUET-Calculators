@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="grade_options">
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+    </string-array>
+</resources>
