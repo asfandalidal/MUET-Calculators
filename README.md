@@ -1,6 +1,6 @@
 # MUET Calculators App
 
-The MUET Calculators app is a convenient tool designed for students, faculty, and anyone associated with Mehran University of Engineering and Technology (MUET) SIndh Pakistan. This app offers a range of calculators tailored specifically to the needs of MUET's academic community.
+The MUET Calculators app is a convenient tool designed for students, faculty, and anyone associated with Mehran University of Engineering and Technology (MUET) Sindh Pakistan. This app offers a range of calculators tailored specifically to the needs of MUET's academic community.
 
 ## Features
 
