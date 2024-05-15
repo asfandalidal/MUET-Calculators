@@ -12,7 +12,7 @@ The MUET Calculators app is a convenient tool designed for students, faculty, an
 ## Screenshots
 
 1. **Main App Interface**
-   ![Main App Interface](MUET-Calculators/CPNIT.jpeg)
+   ![Main App Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg))
 
 2. **GPA Calculator Interface**
    ![GPA Calculator Interface](MUET-Calculators/GPAIT.jpeg)
