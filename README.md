@@ -1,32 +1,33 @@
-# MUET Calculators App
+# MUET Calculators App 📱
 
-The MUET Calculators app is a convenient tool designed for students, faculty, and anyone associated with Mehran University of Engineering and Technology (MUET) Sindh Pakistan. This app offers a range of calculators tailored specifically to the needs of MUET's academic community.
+The MUET Calculators app is a convenient tool designed for students, faculty, and anyone associated with Mehran University of Engineering and Technology (MUET) Sindh, Pakistan. This app offers a range of calculators tailored specifically to the needs of MUET's academic community.
 
-## Features
+## Features 🚀
 
-- **GPA Calculator**: Easily compute your Grade Point Average (GPA) based on your course grades and credit hours.
+- **GPA Calculator** 🎓: Easily compute your Grade Point Average (GPA) based on your course grades and credit hours.
   
-- **CPN Calculator**: This metric serves as a merit score for students applying to university entry tests, aiding them in assessing their academic standing.
+- **CPN Calculator** 📊: This metric serves as a merit score for students applying to university entry tests, aiding them in assessing their academic standing.
 
-
-## Screenshots
+## Screenshots 📸
 
 1. **Main App Interface**  
-   [![Main App Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpeg)
+   <img src="https://github.com/asfandalidal/MUET-Calculators/blob/master/MAIN.jpeg" width="300" />
 
 2. **GPA Calculator Interface**  
-   [![GPA Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpeg)
+   <img src="https://github.com/asfandalidal/MUET-Calculators/blob/master/GPAIT.jpeg" width="300" />
 
 3. **CPN Calculator Interface**  
-   [![CPN Calculator Interface](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg)
+   <img src="https://github.com/asfandalidal/MUET-Calculators/blob/master/CPNIT.jpeg" width="300" />
 
 4. **Navigation Menu Bar**  
-   [![Navigation Menu Bar](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpeg)](https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpeg)
+   <img src="https://github.com/asfandalidal/MUET-Calculators/blob/master/NAV.jpeg" width="300" />
 
-## Installation
+## Installation ⚙️
 
-To use the app, simply download the APK file from the link (https://github.com/asfandalidal/MUET-Calculators/blob/master/MUET%20Calculators.apk)) section and install it on your Android device.
+To use the app, simply download the APK file from the link below and install it on your Android device:
 
-## Contributing
+- [Download APK](https://github.com/asfandalidal/MUET-Calculators/blob/master/MUET%20Calculators.apk)
 
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the app.
+## Contributing 🤝
+
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the app. 🌟
